@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+body {
+    text-align: center;
+    background-color: #456;
+}
+
+button {
+    display:inline-block;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+#speak {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    color: #fff;
+    font-family: cursive,  'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 1.5em;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -14,6 +14,7 @@ var adjectiveBtn = document.querySelector('#adjective');
 var anotherNounBtn = document.querySelector('#anotherNoun');
 var placeBtn = document.querySelector('#place');
 var result = document.querySelector('p');
+var resetBtn = document.querySelector('#reset');
 /* Functions
 -------------------------------------------------- */
 function speakNow(string) {
@@ -37,6 +38,10 @@ speakButton.onclick = function() {
 	//Show the text
 	result.textContent = textToSpeak;
 }
+resetBtn.addEventListener('click', function() {
+	textToSpeak = "";
+	result.textContent = "";
+});
 nounBtn.addEventListener('click', function () {
 	textToSpeak += randomValueFromArray(nouns) + " ";
 });
